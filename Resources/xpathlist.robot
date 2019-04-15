@@ -1,0 +1,12 @@
+*** Variables ***
+${xpath_welcome_next}    //android.widget.TextView[contains(@resource-id,'com.teamviewer.teamviewer.market.mobile:id/tutorial_button_forward')]
+${xpath_welcome_done}    //android.widget.TextView[contains(@resource-id,'com.teamviewer.teamviewer.market.mobile:id/tutorial_button_forward')]
+${xpath_home_openQS}    //android.widget.Button[contains(@resource-id, 'com.teamviewer.teamviewer.market.mobile:id/qsPromotionButton')]
+${xpath_QS_activatingtext}    //android.widget.TextView[contains(@resource-id, 'com.teamviewer.quicksupport.market:id/main_connection_state')]
+${xpath_QS_ready}    //android.widget.TextView[contains(@text, 'secure connection')]
+${xpath_QS_clientid}    //android.widget.FrameLayout[contains(@resource-id, 'com.teamviewer.quicksupport.market:id/main_id_fragment_container')]/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.TextView[contains(@index, '1')]
+${xpath_QS_allowremotetitle}    //android.widget.TextView[contains(@resource-id, 'com.teamviewer.quicksupport.market:id/alertTitle')]
+${xpath_QS_allowremote}    //android.widget.Button[contains(@text, 'Allow')]
+${xpath_QS_startnow}    //android.widget.Button[contains(@text, 'Start now')]
+${xpath_QS_slide_firsttext}    //android.widget.TextView[contains(@resource-id, "com.teamviewer.quicksupport.market:id/textView")]
+${xpath_QS_slide_done}    //android.widget.Button[contains(@resource-id, 'com.teamviewer.quicksupport.market:id/intro_button_done')]
