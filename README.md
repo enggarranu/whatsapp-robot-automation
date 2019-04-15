@@ -1,4 +1,4 @@
-# TM RobotFramework Testing Scripts
+# WhatsApp RobotFramework Testing Scripts
 
 Automation Scripts for TrueMoney
 
